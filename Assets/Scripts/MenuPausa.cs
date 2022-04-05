@@ -89,7 +89,7 @@ public class MenuPausa : MonoBehaviour
         switch (gameManager.cont)
         {
             case 1:
-                gameManager.Pasos.Play()
+                gameManager.Pasos.Play();
                 break;
             case 2:
                 gameManager.MusicaSuspenso2.Play();
